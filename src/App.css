@@ -377,6 +377,11 @@ h6 {
   width: 100%;
   display: block;
 }
+.single-room-images img:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+-webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
 .single-room-info {
   width: 80vw;
   display: grid;
